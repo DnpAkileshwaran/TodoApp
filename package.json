@@ -1,0 +1,15 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "simple todo app using mern stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm start --prefix client\" \"npm start --prefix server\""
+  },
+  "author": "Akileshwaran K",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
