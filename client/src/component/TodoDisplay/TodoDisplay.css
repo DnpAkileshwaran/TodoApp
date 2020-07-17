@@ -1,4 +1,23 @@
+p {
+  padding: 20px;
+}
+
+p:hover {
+  color: red;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: row;
+  position: absolute;
+  bottom: 40px;
+  cursor: pointer;
+}
+
+.todo-block {
+  display: block;
+  border: 1px solid white;
+  margin: 20px;
+  width: 450px;
+  height: 400px;
 }

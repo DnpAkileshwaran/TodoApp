@@ -1,10 +1,4 @@
-.todo-list {
-  font-size: 20px;
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
 .delete-btn {
   padding: 5px;
 }
